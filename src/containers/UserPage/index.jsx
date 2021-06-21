@@ -81,7 +81,7 @@ export function UserPage(props) {
     return <UserContainer>
         <UserWrapper>
             <UserImage>
-                <img src={user.id} />
+                <img src={user.avatar} />
             </UserImage>
             <UserName>{user.first_name} {user.last_name}</UserName>
             <UserEmail>{ user.email}</UserEmail>
